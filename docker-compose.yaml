@@ -7,8 +7,7 @@ services:
     ports:
       - ${MINIO_S3_API}:9000
       - ${MINIO_WEB_CONSOLE}:9001
-    networks:
-      - minionetwork
+
     volumes:
       - 'minio_data:/data'
     environment:
@@ -29,10 +28,6 @@ services:
       mc mb local/hospital-data || true &&
       tail -f /dev/null
       "
-
-networks:
-  minionetwork:
-    driver: bridge
 
 volumes:
   minio_data:
