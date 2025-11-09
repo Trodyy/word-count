@@ -30,8 +30,8 @@ For Hadoop setup on Ubuntu, follow this tutorial:
 ### Project Setup
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd foobar
+git clone <https://github.com/Trodyy/word-count.git>
+cd 
 
 # Install Python dependencies (if any)
 pip install -r requirements.txt
