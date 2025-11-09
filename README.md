@@ -22,6 +22,7 @@ This project implements word count analysis - a fundamental big data benchmark -
 - Golang 1.16+
 - Java 8+ (for Hadoop)
 - Apache Hadoop
+- docker
 
 ### Hadoop Installation
 For Hadoop setup on Ubuntu, follow this tutorial:
