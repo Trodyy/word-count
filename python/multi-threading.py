@@ -5,7 +5,7 @@ def count_words(text_part, result, index):
     words = text_part.split()
     result[index] = Counter(words)
 
-text = open("Example.txt").read()
+text = open("../test.txt").read()
 parts = text.split("\n\n")
 result = [None] * len(parts)
 threads = []
