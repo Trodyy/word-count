@@ -7,6 +7,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY python .
 
+CMD ["python", "python/multi-threading.py"]
+
 
 
 
